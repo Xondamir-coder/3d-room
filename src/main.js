@@ -165,12 +165,9 @@ sunLight.shadow.camera.near = 0.5; // default
 sunLight.shadow.camera.far = 20; // default
 sunLight.castShadow = true;
 
-gui.add(sunLight.position, 'x').min(-20).max(20).name('sunLightPosX');
-gui.add(sunLight.position, 'y').min(-20).max(20).name('sunLightPosY');
-gui.add(sunLight.position, 'z').min(-20).max(20).name('sunLightPosZ');
-gui.add(sunLight.target.position, 'x').min(-20).max(20).name('X');
-gui.add(sunLight.target.position, 'y').min(-20).max(20).name('Y');
-gui.add(sunLight.target.position, 'z').min(-20).max(20).name('Z');
+// gui.add(sunLight.position, 'x').min(-20).max(20).name('sunLightPosX');
+// gui.add(sunLight.position, 'y').min(-20).max(20).name('sunLightPosY');
+// gui.add(sunLight.position, 'z').min(-20).max(20).name('sunLightPosZ');
 
 /**
  * Renderer
